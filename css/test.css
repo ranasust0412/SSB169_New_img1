@@ -1,0 +1,274 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color:;
+}
+/* Header Start*/
+header{
+  background-color:#121B2A;
+  margin:0;
+  padding:5px;
+}
+.wrapper{
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+}
+.logo{
+  width: 12%;
+  float: left;
+}
+
+.logo img{
+  width: 90%;
+}
+.menu{
+  width: 70%;
+  float: right;
+  margin-top: 10px;
+}
+.menu ul{
+  float: right;
+}
+.menu ul li{
+  list-style: none;
+  float: left;
+}
+.menu ul li a{
+  text-decoration: none;
+  font-size: 15px;
+  color:white;
+  padding: 0 15px;
+  display: block;
+  text-transform:uppercase;
+}
+.menu ul li:last-child a{
+  padding-right:0;
+
+}
+.menu ul li a:hover{
+  color:#B03A2E;
+  transition: 0.5s;
+  
+}
+/* header end */
+
+
+
+
+  /* banner start */
+
+.banner{
+  background-image: url(../image/twelve.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner-content{
+  margin-top: 320px;
+  margin-bottom:20px;
+  width: 50%
+}
+.banner-content h1{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+.banner-content h2{
+    font-family: sans-serif;
+    font-size: 40px;
+    color:#0079BE;
+    margin: 0;
+}
+.banner-content p{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    line-height: 20px; 
+    margin-bottom: 20px;
+    margin-top:2px;
+}
+.banner-content button{
+  background-color: #ddd;
+  font-family: sans-serif;
+  padding: 8px 18px;
+  font-size: 20px;
+  font-weight:700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 6px;
+}
+/* banner end */
+
+
+
+
+/* service start */
+.service{
+  padding-top: 25px;
+  padding-bottom: 30px;
+  background-color: #121B2C;
+}
+.single{
+  width:30%;
+  /* border-right: 1px solid white; */
+  float: left;
+  padding: 0 10px 60px 10px;
+}
+.single:last-child{
+  border-right: none;
+}
+.top{
+  overflow:hidden;
+}
+.top-logo{
+  width: 20%;
+  float: left;
+}
+.top-logo img{
+  width: 100%;
+}
+.top-text{
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 60%;
+  float:left;
+}
+.top-text h1{
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 20px;
+  margin: 0px;
+}
+.top-text h2{
+  font-family: sans-serif;
+  color: #0079BE;
+  font-size: 19px;
+  margin: 0px;
+}
+.bottom{
+  margin-top: 12px;
+}
+.bottom p {
+  font-family: sans-serif;
+  /* font-weight: 400; */
+  color: white;
+  font-size: 14px;
+  margin: 0px;
+  line-height: 24px;
+}
+/* service  end */
+
+
+
+
+/* about start */
+.about{
+  background-color:#040811;
+}
+.container{
+  overflow: hidden;
+  width:70% ;
+  margin: 0 auto;
+}
+.part1{
+  float: left;
+  width: 25%;
+  margin-top: 25px;
+  padding: 0 30px 60px 10px; 
+}
+.part1 h1{
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 18px:;
+  color: white;
+  margin:0; 
+}
+.part1 h1 span{
+  color:#0079BE;
+}
+.part1 p{
+  color: white;
+}
+.part2{
+  float: left;
+  width: 30%;
+  margin-top: 25px;
+  padding: 0 30px 60px 10px;  
+}
+.part2 h1{
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 18px:;
+  color: white;
+  margin:0;
+}
+.part2 h1 span{
+  color:#0079BE;
+}
+.part2 p{
+  color: white;
+}
+.part3{
+  float: left;
+  width: 30%;
+  margin-top: 25px;
+  padding: 0 30px 60px 10px; 
+}
+.part3 img{
+}
+/* about end */
+
+
+
+/*footer start*/
+footer{
+background-color:#121B2C;
+}
+.container1{
+  overflow: hidden;
+  width: 75%;
+  margin:0 auto;
+  padding-top: 30px;
+}
+.left{
+  overflow: hidden;
+  float: left;
+  width: 65%;
+}
+.topper{}
+.topper ul{ 
+}
+.topper ul li{
+  list-style:none;
+  float: left;
+  border-right: 1px solid white;
+}
+.topper ul li a{
+  font-family: sans-serif;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  display: block; 
+  padding: 0 12px 10px 10px;
+}
+.bottomer{
+  float: left;
+}
+.bottomer p{
+  font-size: 14px;
+  color: white;
+  margin-left: 40px;
+}
+.right{
+  width: 30%;
+ float: left;
+}
+.right img{
+   width: 100%
+}
+/*footer end*/
